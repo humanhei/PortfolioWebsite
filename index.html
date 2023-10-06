@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <title>Eric Sham | Portfolio</title>
+  </head>
+  <body>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="btn-back-to-top" class="btn btn-primary">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-sm">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" height="100" alt="Eric Sham Logo"/>
+                </a>  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#experiences">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        <!-- Navbar -->
+        <!-- Background Animation-->
+        <canvas id="cw">
+          Animation creating multi-colored disappearing stream of light that follow the
+          cursor as it moves over the image
+        </canvas>
+        
+        <!-- Banner SECTION -->
+        <div class="text-white h-100 d-flex align-items-center p-4">
+            <div class="container-sm d-flex align-items-center">
+              <div>
+                <h1 class="banner-title">Hello 👋<br/>This is <b>Eric Sham</b></h1>
+                <h3 class="banner-link"><a href="#about">Journey Start <i class="fas fa-chevron-down"></i></a></h3>
+              </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+      <!-- HOME -->
+      
+      <!-- ABOUT ME -->
+      <section id="about">
+        <div class="container-sm w-100">
+            <div class="row text-white about-me">
+              <h2><span>About</span> Me</h2>
+            </div>
+            <div class="row about-me-bg rounded p-4">
+              <div class="col-md-8 text-white about-me">
+                <p>
+                  I am a highly skilled software developer with a strong educational background in Information Engineering. With over two years of professional experience in the field, 
+                  I have honed my programming skills and techniques to a high level of proficiency. I have a solid foundation in programming languages such as C#, Node.js, and Java, enabling me 
+                  to work on a wide spectrum of projects and technologies. Throughout my career, I have demonstrated a commitment to delivering high-quality software solutions by leveraging 
+                  my technical expertise, problem-solving abilities, and attention to detail. I have successfully contributed to the development and maintenance of software systems that meet 
+                  both client and end-user requirements. My passion for software development extends beyond my professional work, as I am continually exploring new technologies and staying 
+                  updated with industry trends.
+                </p>
+              </div>
+              <div class="about-me-img col-md-4 d-flex align-items-center">
+                <img
+                  src="./images/undraw_about_me.svg"
+                  height="250px"
+                  width="350px"
+                  alt="guy with html css"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="container-sm my-skills w-100">
+          <div class="row text-white section-header title-blue">
+            <h2>My <span>Skills</span></h2>
+          </div>
+          <div class="row pt-4 pb-4">
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-white w-100">
+                <div class="card-body">
+                  <h5 class="card-title">Front-end</h5>
+                  <p class="card-text">
+                    <span><i class="devicon-javascript-plain"></i><i class="devicon-typescript-plain"></i> JS/TS</span>
+                    <br />
+                    <span><i class="devicon-vuejs-plain-wordmark"></i> Vue</span>
+                    <br />
+                    <span><i class="devicon-angularjs-plain"></i> Angular</span>
+                    <br />
+                    <span><i class="devicon-html5-plain-wordmark"></i> HTML</span>
+                    <br />
+                    <span><i class="devicon-css3-plain-wordmark"></i> CSS</span>
+                    <br />
+                    <span><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-white w-100">
+                <div class="card-body">
+                  <h5 class="card-title">Back-end</h5>
+                  <p class="card-text">
+                    <span><i class="devicon-nodejs-plain"></i> Node.JS</span>
+                    <br />
+                    <span><i class="devicon-csharp-plain"></i> C#</span>
+                    <br />
+                    <span><i class="devicon-java-plain-wordmark"></i> Java</span>
+                    <br />
+                    <span><i class="devicon-python-plain"></i> Python</span>
+                    <br />
+                    <span><i class="devicon-express-original"></i> Express</span>
+                    <br />
+                    <span><i class="devicon-dotnetcore-plain"></i> .NET Framework</span>
+                    <br />
+                    <span><i class="devicon-flask-original"></i> Flask</span>
+                    <br />
+                    <span><i class="devicon-mongodb-plain-wordmark"></i> MongoDB</span></span>
+                    <br />
+                    <span><i class="devicon-microsoftsqlserver-plain-wordmark"></i> Microsoft SQL Server</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-white w-100">
+                <div class="card-body">
+                  <h5 class="card-title">Tools and Miscellaneous</h5>
+                  <p class="card-text">
+                    <span><i class="devicon-git-plain"></i> Git</span>
+                    <br />
+                    <span><i class="devicon-sourcetree-original-wordmark"></i> SourceTree</span>
+                    <br />
+                    <span><i class="devicon-jira-plain-wordmark"></i> JIRA</span>
+                    <br />
+                    <span><i class="devicon-azure-plain"></i> Azure</span>
+                    <br />
+                    <span><i class="devicon-vscode-plain-wordmark"></i> VS Code</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCES -->
+      <section id="experiences">
+        <div class="container-sm my-experiences w-100">
+          <div class="row text-white section-header title-red">
+            <h2>My <span>Experiences</span></h2>
+          </div>
+          <div class="row pt-4">
+            <div class="col mb-3 d-flex align-items-stretch">
+              <div class="card text-white w-100 card-wrapper">
+                <div class="card-body">
+                  <h5 class="card-title">Nanoinsure Technology (Hong Kong) Limited</h5>
+                  <h6 class="card-subtitle mb-2 fst-italic">Solution Developer</h6>
+                  <h6 class="card-subtitle mb-2 fst-italic">June 2022 - September 2023</h6>
+                  <p class="card-text reveal-detail">
+                    <ul>
+                      <li><b>Analyzing user requirements and developing software solutions</b>: Gathering the user requirements
+                        provided, customizing solutions like Point-of-sales (POS) systems to fit the needs of the users. Agile
+                        development methodologies were adopted. Coded with Node.js, Express.js, Bottle.js</li>
+                      <li><b>Integrating with clients’ API</b>: Followed the documentation provided by the teammates which standardized
+                        the APIs to write it to our backend systems. APIs from multiple clients were seamlessly integrated into our
+                        software platform, enabling smooth data exchange and functionality as a result</li>
+                      <li><b>Unit testing for our program</b>: Utilized Chai.js to ensuring the correctness of our software program</li>
+                      <li><b>Optimizing query on MongoDB for backend service</b>: Modified queries to take advantage of MongoDB’s
+                        indexing capabilities, minimizing data scans and enhancing query execution speed. Backend service experienced
+                        improved query performance, reduced response times, and increased overall system responsiveness</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-4 pb-4">
+            <div class="col mb-3 d-flex align-items-stretch">
+              <div class="card text-white w-100 card-wrapper">
+                <div class="card-body">
+                  <h5 class="card-title">Hong Kong Science and Technology Parks Corporation</h5>
+                  <h6 class="card-subtitle mb-2 fst-italic">Programmer</h6>
+                  <h6 class="card-subtitle mb-2 fst-italic">June 2021 - May 2022</h6>
+                  <p class="card-text reveal-detail">
+                    <ul>
+                      <li><b>Developing and upkeeping backend Web API to facilitate connection among various systems</b>: Encompassed 
+                        the maintenance and resolution of issues involving various vendors to ensure the continued and
+                        current operation of systems. Coded in C# using the .NET Framework and is coupled with a SQL Server
+                        database</li>
+                      <li><b>Developing, improving, and providing assistance for the admissions application</b>: Introduced new
+                        features and rectified various logical errors to streamline the admissions process and align it with the company’s
+                        admission policies. Coded with ASP.NET Core and Angular.js</li>
+                      <li><b>Managing the company’s application SQL Server database</b>: Conducted table adjustments within the
+                        SQL server to meet the demands of multiple systems, including the admission system. Established data export
+                        capabilities from the SQL server</li>
+                      <li><b>Internal site building with SharePoint embedded with automated flow</b>: Created SharePoint websites
+                        for different company departments. Optimizing processes with automated workflows using Power Automate
+                        Workflow and Plumsail Form development</li>
+                      <li><b>Internal site building with SharePoint embedded with automated flow</b>: Created SharePoint websites
+                        for different company departments. Optimizing processes with automated workflows using Power Automate
+                        Workflow and Plumsail Form development</li>
+                      <li><b>Administering and assisting the company’s CRM system on Dynamics 365</b>: Customized various
+                        tables and tabs to align with the preferences of users. Offered technical support to users to derive insights and
+                        reports</li>
+                      <li><b>Building new portal with Power Apps</b>: Built with Power Apps allowing the data to sync with Dynamics
+                        365</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="container-sm my-projects w-100">
+          <div class="row text-white section-header title-blue">
+            <h2>My <span>Projects</span></h2>
+          </div>
+          <div class="text-white pt-2">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/location-app-img.png" class="img-fluid rounded" alt="location-app-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Location App</h5>
+                    <p class="card-text">A simple web app that can search location and tell the time</p>
+                    <p class="card-text">Made with: <span class="fs-3"><i class="devicon-vuejs-plain-wordmark"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-javascript-plain"></i></span></p>
+                    <div class="card-read-more">
+                      <a href="https://map.humanhei.com" class="btn btn-dark btn-block mt-2"><i class="fas fa-eye"></i> Live Demo</a>
+                      <a href="https://github.com/humanhei/map-app" class="btn btn-dark btn-block mt-2"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-white pt-2 pb-2">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/portfolio-img.png" class="img-fluid rounded w-100" alt="portfolio-img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">A simple web app that can search location and tell the time</p>
+                    <p class="card-text">Made with: <span class="fs-3"></i><i class="devicon-html5-plain-wordmark"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-javascript-plain"></i></span></p>
+                    <div class="card-read-more">
+                      <a href="https://www.humanhei.com" class="btn btn-dark btn-block mt-2"><i class="fas fa-eye"></i> Live Demo</a>
+                      <a href="https://github.com/humanhei/PortfolioWebsite" class="btn btn-dark btn-block mt-2"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Site footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="images/favicon-32x32.png" alt="Eric Sham Logo"/>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">Copyright &copy; 2023 All Rights Reserved by <a href="#">Eric Sham</a></span>
+          </div>
+          <div class="col-md-4 d-flex align-items-center ms-auto">
+            <ul class="ms-auto list-unstyled d-flex flex-row-reverse social-icons">
+              <li><a class="linkedin" href="https://www.linkedin.com/in/eric-sham-ph/"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a class="github" href="https://github.com/humanhei"><i class="fa-brands fa-square-github"></i></a></li>
+              <li><a class="mail" href="mailto:hei9988@gmail.com"><i class="fa-solid fa-square-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
