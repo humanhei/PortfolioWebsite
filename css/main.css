@@ -9,6 +9,10 @@
   --dark-blue-lighter: #004b6e;
 }
 
+body {
+  background-color: var(--dark-gray);
+}
+
 header {
   height: 100vh;
 }
