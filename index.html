@@ -422,7 +422,7 @@
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <img src="images/favicon-32x32.png" alt="Eric Sham Logo" />
           </a>
-          <span class="mb-3 mb-md-0 text-muted">Copyright &copy; 2023 All Rights Reserved by <a href="#">Eric
+          <span class="mb-3 mb-md-0 text-muted">Copyright &copy; <span id="current-year"></span> All Rights Reserved by <a href="#">Eric
               Sham</a></span>
         </div>
         <div class="col-md-4 d-flex align-items-center ms-auto">
@@ -442,9 +442,14 @@
       const currentYear = new Date().getFullYear();
       const yearsOfExperience = Math.max(0, currentYear - startYear);
       const yearsElement = document.getElementById("years-of-experience");
+      const currentYearElement = document.getElementById("current-year");
 
       if (yearsElement) {
         yearsElement.textContent = yearsOfExperience;
+      }
+
+      if (currentYearElement) {
+        currentYearElement.textContent = currentYear;
       }
     })();
   </script>
